@@ -1,4 +1,4 @@
-# EasyPage — Clarity for every brain 🧠
+# EasyView — Clarity for every brain 🧠
 
 ![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
 ![Chrome](https://img.shields.io/badge/chrome-extension-orange.svg)
@@ -6,7 +6,7 @@
 
 **The AI-Powered Cognitive Bridge for Web Accessibility**
 
-EasyPage is a Chrome extension that reduces cognitive friction on websites for neurodivergent users (ADHD, Dyslexia, ASD) using AI-powered features to simplify complex content and improve readability.
+EasyView is a Chrome extension that reduces cognitive friction on websites for neurodivergent users (ADHD, Dyslexia, ASD) using AI-powered features to simplify complex content and improve readability.
 
 ---
 
@@ -32,7 +32,7 @@ Many websites—government portals, educational platforms, healthcare services�
 
 ## ✨ The Solution
 
-EasyPage leverages AI and advanced accessibility features to make any webpage more accessible with four powerful modes:
+EasyView leverages AI and advanced accessibility features to make any webpage more accessible with four powerful modes:
 
 ### 1. **Jargon Decoder** 📖
 AI-powered text simplification that makes complex content understandable:
@@ -95,11 +95,11 @@ Advanced read-aloud functionality with visual tracking:
 2. Open Chrome and navigate to `chrome://extensions/`
 3. Enable "Developer mode" (toggle in top right)
 4. Click "Load unpacked"
-5. Select the `EasyPage` folder
+5. Select the `EasyView` folder
 6. The extension icon should appear in your toolbar
 
 ### 3. Configure the Extension
-1. Click the EasyPage extension icon in your toolbar
+1. Click the EasyView extension icon in your toolbar
 2. Click "⚙️ API Settings" at the bottom
 3. Select your AI provider (OpenRouter or Google Gemini)
 4. Paste your API key in the appropriate field
@@ -110,7 +110,7 @@ Advanced read-aloud functionality with visual tracking:
 
 ### Quick Start
 1. Navigate to any webpage
-2. Click the EasyPage icon in your toolbar
+2. Click the EasyView icon in your toolbar
 3. Toggle the features you want to enable:
    - **Jargon Decoder** - Simplifies complex terms
    - **Sensory Shield** - Freezes animations
@@ -230,7 +230,7 @@ The Jargon Decoder identifies terms in these categories:
 ## 📁 Project Structure
 
 ```
-EasyPage/
+EasyView/
 ├── manifest.json          # Extension configuration (Manifest V3)
 ├── popup.html             # Extension popup interface
 ├── popup.css              # Popup styling (dark/light themes, responsive sizes)
@@ -255,7 +255,7 @@ EasyPage/
 
 - **Local Storage Only**: API keys are stored locally on your device using Chrome's local storage
 - **Sync Storage for Settings**: User preferences sync across your Chrome browsers
-- **No Data Collection**: EasyPage does not collect, store, or transmit any personal user data
+- **No Data Collection**: EasyView does not collect, store, or transmit any personal user data
 - **API Communication**: Only page text content is sent to your chosen AI provider for processing
 - **Dual Provider Support**: Choose between OpenRouter or Google Gemini based on your preference
 - **Secure Transmission**: All API calls use HTTPS encryption
@@ -296,7 +296,7 @@ Please read our [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of co
 - Documentation improvements
 - Accessibility testing
 
-See our [GitHub Issues](https://github.com/EasyPageTeam/EasyPage/issues) for current tasks and feature requests.
+See our [GitHub Issues](https://github.com/EasyPageTeam/EasyView/issues) for current tasks and feature requests.
 
 
 ## 🙏 Acknowledgments

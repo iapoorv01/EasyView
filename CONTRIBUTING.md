@@ -1,6 +1,6 @@
-# Contributing to EasyPage
+# Contributing to EasyView
 
-First off, thank you for considering contributing to EasyPage! It's people like you that make EasyPage such a great tool for improving web accessibility.
+First off, thank you for considering contributing to EasyView! It's people like you that make EasyView such a great tool for improving web accessibility.
 
 ## Code of Conduct
 

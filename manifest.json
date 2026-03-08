@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "EasyPage — Clarity for every brain ",
-  "version": "1.0.0",
-  "description": "EasyPage — Clarity for every brain. AI-powered Chrome extension for accessible, simplified web reading.",
+  "name": "EasyView — Clarity for every brain ",
+  "version": "1.0.1",
+  "description": "EasyView — Clarity for every brain. AI-powered Chrome extension for accessible, simplified web reading.",
   "permissions": [
     "activeTab",
     "storage",

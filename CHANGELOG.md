@@ -1,13 +1,14 @@
 # Changelog
 
-All notable changes to EasyPage will be documented in this file.
+All notable changes to EasyView will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [1.0.0] - 2026-01-11
+## [1.0.1] - 2026-01-11
 
 ### Added
+- **Visuals Tab**: Introduced a dedicated Visuals tab in the popup, allowing users to adjust brightness, contrast, sepia, grayscale, font style, text stroke, and toggle dark/light mode for improved on-page accessibility. All settings are applied instantly and saved for future browsing sessions.
 - **Jargon Decoder**: AI-powered text simplification with full page and selection-based decoding
   - Full page mode: Automatically detects and simplifies complex terms across entire pages
   - Selection decoder: Decode specific text selections (10-5000 characters)
@@ -64,4 +65,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - HTTPS-encrypted API communications
 - Open source and auditable code
 
-[1.0.0]: https://github.com/EasyPageTeam/EasyPage/releases/tag/v1.0.0
+[1.0.1]: https://github.com/EasyView/releases/tag/v1.0.1

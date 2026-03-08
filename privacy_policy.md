@@ -1,8 +1,8 @@
-# EasyPage Privacy Policy - API Key Storage
+# EasyView Privacy Policy - API Key Storage
 
 ## 🔒 Privacy-First Approach
 
-EasyPage is designed with your privacy as the top priority. We implement a strict separation between sensitive data and user preferences.
+EasyView is designed with your privacy as the top priority. We implement a strict separation between sensitive data and user preferences.
 
 ## API Key Storage
 
