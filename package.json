@@ -1,4 +1,6 @@
 {
+  "name": "easyview",
+  "version": "1.0.2",
   "devDependencies": {
     "cssnano-cli": "^1.0.5",
     "terser": "^5.46.0"

@@ -1,1 +1,29 @@
-.ir-dark-mode{background:var(--ir-bg-primary)!important;color:var(--ir-text-primary)!important}.ir-light-mode{background:var(--ir-bg-primary)!important;color:var(--ir-text-primary)!important}body.ir-dark-mode,body.ir-light-mode{background:var(--ir-bg-primary)!important;color:var(--ir-text-primary)!important}[class*=ir-]{background:var(--ir-bg-secondary);color:var(--ir-text-primary)}.ir-frozen,.ir-spotlight{all:initial}
+/* EasyView Content Styles */
+/* Mode classes for global theme */
+.ev-dark-mode {
+    background: var(--ev-bg-primary) !important;
+    color: var(--ev-text-primary) !important;
+}
+.ev-light-mode {
+    background: var(--ev-bg-primary) !important;
+    color: var(--ev-text-primary) !important;
+}
+
+body.ev-dark-mode, body.ev-light-mode {
+    background: var(--ev-bg-primary) !important;
+    color: var(--ev-text-primary) !important;
+}
+
+/* Optional: apply to all extension UI elements */
+[class*="ev-"] {
+    background: var(--ev-bg-secondary);
+    color: var(--ev-text-primary);
+}
+
+/* These styles are injected dynamically but defined here for reference */
+
+/* Base reset for extension elements - excludes jargon elements to preserve font inheritance */
+.ev-spotlight,
+.ev-frozen {
+    all: initial;
+}
