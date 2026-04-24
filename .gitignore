@@ -52,3 +52,26 @@ pnpm-lock.yaml
 # Extension build and design folders
 2.0.2_0/
 .kiro/
+# Additional unnecessary folders/files
+4.9.119_0/
+assets/
+config/
+ui/
+static/
+tabs/
+*.bak
+*.old
+*.orig
+*.log.*
+*.cache
+*.pyc
+__pycache__/
+test/
+tests/
+*.test.js
+*.spec.js
+*.coverage
+*.eslintcache
+*.tsbuildinfo
+Easy-Page/
+!libs/*.min.js
