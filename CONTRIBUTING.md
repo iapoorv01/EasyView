@@ -70,6 +70,7 @@ Enhancement suggestions are tracked as GitHub issues. When creating an enhanceme
 
 ## Areas for Contribution
 
+- **Backend / Supabase**: Assist with Edge Functions, RLS policies, and API optimizations
 - **Features**: New accessibility features or enhancements
 - **Bug Fixes**: Identify and fix bugs
 - **Documentation**: Improve or add documentation

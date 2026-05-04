@@ -1,109 +1,50 @@
-# EasyView Privacy Policy - API Key Storage
+# EasyView Extension Privacy Policy
 
 ## 🔒 Privacy-First Approach
 
 EasyView is designed with your privacy as the top priority. We implement a strict separation between sensitive data and user preferences.
 
-## API Key Storage
+> **Note:** For our full, legally binding Privacy Policy regarding your EasyView Account, Premium Subscriptions, and Website interactions, please read the [Official EasyView Privacy Policy](https://easyview.in/privacy-policy).
 
-### **Local-Only Storage** ✅
+## Extension Data Storage
 
-Your OpenRouter API key is stored using `chrome.storage.local`, which means:
-
+### **Local-Only Storage (Bring Your Own Key)**
+If you choose to use the "Bring Your Own Key" (BYOK) feature instead of our built-in Premium quotas, your Google Gemini or OpenRouter API key is stored using `chrome.storage.local`. This means it:
 - ✅ **Never syncs** to any cloud service
 - ✅ **Device-only** - stays on your computer
-- ✅ **No transmission** - never leaves your device
-- ✅ **Private** - not accessible by other extensions or websites
-- ✅ **Secure** - uses Chrome's encrypted storage
+- ✅ **No transmission** - never leaves your device to our servers
 
-**Technical Implementation:**
-```javascript
-// API keys are saved to local storage only
-await chrome.storage.local.set({ apiKey });
+### **Sync Storage (Settings & Premium Status)**
+User preferences (feature toggles, visual settings) and your securely hashed Premium Status are stored using `chrome.storage.sync`, which:
+- ✅ Syncs across your Chrome browsers
+- ✅ Includes basic account metadata (email) if you are logged in
+- ✅ Does **NOT** include custom API keys
 
-// And retrieved from local storage
-const { apiKey } = await chrome.storage.local.get('apiKey');
-```
+## Premium Authentication & AI Processing
 
-## User Preferences Storage
+With the launch of **EasyView Premium**, we use **Supabase** for secure backend validation.
 
-### **Sync Storage** (Optional)
+- **Free / Premium Tier (Built-in):** If you use our built-in AI quotas, your browser securely authenticates with our backend using a signed token. We **do not log or store** the text you highlight. The text is immediately passed to the AI provider and discarded.
+- **BYOK Tier:** If you provide your own API key, your browser communicates **directly** with the AI provider (Google or OpenRouter). This communication bypasses our servers entirely.
 
-User preferences (feature toggles, intensity settings, etc.) use `chrome.storage.sync`, which:
+## What We Collect (Via Supabase)
+If you create an account, we securely collect:
+- Your Email Address (via OAuth)
+- Subscription Payment Status (via Stripe/Razorpay)
+- Anonymous Usage Analytics (e.g., "Jargon Decoder Used", no page text is saved)
 
-- ✅ Syncs across your Chrome browsers (if signed in to Chrome)
-- ✅ **Does NOT include API keys**
-- ✅ Only includes feature settings (dyslexia options, TTS speed, etc.)
-- ✅ Can be disabled by signing out of Chrome
-
-**What syncs:**
-- Feature toggles (Jargon Decoder, Sensory Shield, etc.)
-- Dyslexia font preferences
-- Text-to-speech settings
-- UI preferences
-
-**What NEVER syncs:**
-- OpenRouter API keys
-- AI model responses
-- Browsing history
-- Page content
-
-## Future Premium Features
-
-In the future, when premium features are added, you will have the **option** to:
-
-- Sync API keys across devices (optional, opt-in only)
-- Store API keys in our secure cloud (encrypted)
-- Share configurations with team members
-
-**This will ALWAYS be:**
-- ✅ Optional (disabled by default)
-- ✅ Explicit consent required
-- ✅ Encrypted end-to-end
-- ✅ Yours to control
-
-## Data We Collect
-
-### **Currently: NONE** ✅
-
-We do not collect, store, or transmit:
-- Personal information
-- Browsing history
-- API keys
-- AI-generated content
-- Usage analytics
-
-### **API Communication**
-
-When you use AI features, your browser communicates directly with:
-- **OpenRouter API** (for AI processing)
-
-This communication:
-- Goes directly from your browser to OpenRouter
-- Does NOT pass through our servers
-- Is secured with HTTPS
-- Follows OpenRouter's privacy policy
+**We NEVER collect:**
+- Your browsing history or exact URLs
+- Your personal API keys
+- The text you highlight to read or decode
 
 ## Your Control
-
 You have complete control over your data:
-
-1. **API Key**: Stored only on your device
-2. **Delete Data**: Uninstall extension to remove all data
-3. **View Data**: Inspect using Chrome DevTools → Application → Storage
-4. **Export Settings**: (coming soon)
-
-## Questions?
-
-If you have any privacy concerns or questions:
-- Open an issue on GitHub
-- Review the source code (fully open source)
-- Contact us at [your contact method]
+1. **API Key**: Delete it from the Settings UI at any time.
+2. **Account Deletion**: Contact support at easyview.support@gmail.com to permanently delete your account and all associated data under GDPR/CCPA.
+3. **Uninstall**: Uninstalling the extension completely wipes all locally cached settings.
 
 ---
 
-**Last Updated:** January 9, 2026
-
-**Version:** 1.0.0
-
+**Last Updated:** May 2026  
 **Privacy Guarantee:** We will never sell, share, or monetize your personal data. Period.

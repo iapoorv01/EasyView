@@ -5,6 +5,26 @@ All notable changes to EasyView will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.1.0] - 2026-05-03
+
+### Added
+- **EasyView Premium**: Launched a new premium subscription tier unlocking unlimited AI queries and advanced sensory shields.
+- **Supabase Integration**: Added robust backend infrastructure for user authentication (Google OAuth), payment tracking, and secure server-side API routing.
+- **Usage Analytics**: Implemented lightweight, privacy-preserving usage tracking to better understand which features users need most (does not track URLs or text content).
+- **Web Portal**: Launched `easyview.in` for account management, comprehensive documentation, and secure checkout.
+
+### Changed
+- **Privacy Policy**: Completely overhauled to accurately reflect the new account system and Supabase backend while maintaining our strong privacy guarantees.
+- **API Routing**: The Jargon Decoder now routes through our secure backend for Free/Premium users, fully hiding corporate API keys from the client.
+- **BYOK (Bring Your Own Key)**: Refined the BYOK flow, explicitly making it an optional path for advanced users who wish to bypass all quotas.
+
+## [1.0.2] - 2026-04-20
+
+### Fixed
+- Addressed character encoding corruption issues in Jargon Decoder responses.
+- Improved performance of the Sensory Shield background MutationObserver.
+- Resolved UI state synchronization bugs when logging out of the extension.
+
 ## [1.0.1] - 2026-01-11
 
 ### Added
