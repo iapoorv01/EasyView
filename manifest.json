@@ -12,7 +12,7 @@
     }
   },
   "name": "EasyView — Clarity for Every Brain",
-  "version": "1.1.0.1",
+  "version": "1.1.0.3",
   "description": "EasyView — Clarity for Every Brain. AI-powered Chrome extension for accessible, simplified web reading.",
   "permissions": [
     "activeTab",
