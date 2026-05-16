@@ -1,0 +1,1 @@
+const EASYVIEW_TIERS={FREE:{font:"opendyslexic",beamShape:"circle",sensoryMode:"freeze"},PREMIUM:{fonts:["lexend","atkinson"],beamShapes:["line"],sensoryModes:["fade","stop","both"]}};"undefined"!=typeof globalThis&&(globalThis.EASYVIEW_TIERS=EASYVIEW_TIERS);
