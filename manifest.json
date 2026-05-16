@@ -12,7 +12,7 @@
     }
   },
   "name": "EasyView — Clarity for Every Brain",
-  "version": "1.1.0.3",
+  "version": "1.1.1",
   "description": "EasyView — Clarity for Every Brain. AI-powered Chrome extension for accessible, simplified web reading.",
   "permissions": [
     "activeTab",
@@ -26,6 +26,7 @@
   ],
   "background": {
     "scripts": [
+      "js/constants/tier-schema.js",
       "gemini-service.js",
       "background.js"
     ]
@@ -36,8 +37,14 @@
         "<all_urls>"
       ],
       "js": [
+        "js/constants/tier-schema.js",
         "dom-utils.js",
         "content.js",
+        "js/features/jargon-decoder.js",
+        "js/features/sensory-shield.js",
+        "js/features/dyslexia-mode.js",
+        "js/features/text-to-speech.js",
+        "js/features/content-privacy-shield.js",
         "inject/index.js",
         "inject/payment-bridge.js"
       ],
@@ -64,6 +71,7 @@
     {
       "resources": [
         "content.css",
+        "styles.css",
         "inject/sensory.js",
         "fonts/kindle/Fast_OpenDyslexic/*.otf",
         "fonts/kindle/Fast_Sans/*.otf",
