@@ -31,7 +31,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **High-Performance Cinematic Confetti**: Upgraded the celebration engine to replace continuous heavy 60fps physics loops with a lightweight staggered triple-burst sequence, yielding a **95% reduction in CPU overhead**. Features highly curated multicolored palettes (Gold, Cyan, Fuchsia) and organic vector noise so no two purchase celebrations look identical.
 - **Dynamic OS Font Ingest Engine (Dark Reader Grade)**: Wired native Chromium `fontSettings` bridge to silently scan the user's hard drive. Populates the visuals dropdown dynamically with hundreds of real, alphabetized local system fonts, delivering unparalleled cross-device visual personalization.
 - **High-Performance DocumentFragment Buffering**: Engineered virtual DOM buffers for system font injection to bypass browser reflow cycles completely, securing 0ms, lag-free drawing speeds regardless of physical font volume.
-- **Autonomous Premium Downgrade Engine**: Overhauled the Manifest V3 background service worker to autonomously execute full-storage scrubs upon Premium expiry. It now instantly broadcasts live style downgrades (Dyslexia fonts, Privacy Shield, Sensory Modes) directly to all active tabs without requiring the user to open the popup or refresh the page.
 ### Changed
 - **Twin Highlight Physics Parity**: Refined user-defined glossary terms to inherit difficulty-2 styling seamlessly, establishing absolute CSS layout parity between manual clarifications and AI-decoded box models.
 - **Cross-Theme Dash Optimization**: Hardened all fresh components—including form selectors, quick-add drawers, and flashlight sizing panels—against light-theme adaptations, ensuring high-contrast Oceanic Cyan accessibility across light and dark modes.
@@ -50,7 +49,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **Premium Modal Z-Index Escalation**: Recalculated the hierarchical depth of configuration dashboards versus dynamic upgrade prompts, elevating the Premium Gate modal to guarantee it intercepts clicks above all scrolling content.
 - **Real-Time Storage Serialization**: Attached atomic persistence hooks to all Converter, Export, and Visual setting forms, writing slider dimensions and dropdown options to Chrome Sync instantly upon change.
 - **Tour Teleportation Glitch**: Fixed a dimensional computation hazard where Onboarding Spotlights would clamp to (0,0) coordinates on hidden tabs. The tour engine now forces a 200ms layout reflow to securely anchor the spotlight over the exact button coordinates.
-- **Autonomous Premium Downgrade Engine**: Fixed a critical caching bug where background service workers sleeping caused premium expiries to be missed. The background script now actively sweeps and broadcasts live downgrade states (Dyslexia fonts, Privacy Shield, Sensory Modes) instantly to all active tabs without requiring page reloads or popup interactions.
+
 
 ## [1.1.0] - 2026-05-03
 
